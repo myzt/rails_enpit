@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.1.2
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: BwrjJ86AcGdWkvyW76QRKjUKV+JNALuaPD0oiergcv4eXu3dLzZLhxrAWXs1bwuiasD3Dgo7k6YfZsz71CNSJRbGDA1BjeyllCuyT6XB+Wjnu+aCG1WpgZN6Jl1fHdkcUqeNr/rsuyXBgEYLmOkVIjej/yVvsw8yJOOkE2IKM5A=
+  app: thawing-shore-8719
+  on:
+    repo: myzt/rails_enpit
+    branch: travis
