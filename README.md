@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/myzt/rails_enpit.svg?branch=travis)](https://travis-ci.org/myzt/rails_enpit)
