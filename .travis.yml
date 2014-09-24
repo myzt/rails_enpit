@@ -1,8 +1,7 @@
 language: ruby
 rvm:
 - 2.1.2
-- jruby-19mode
-- rbx-2
+
 deploy:
   provider: heroku
   api_key:
